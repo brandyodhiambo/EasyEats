@@ -1,4 +1,4 @@
-<p align="center"><img src="project/the-goals.png" alt="Easy Eats App" height="250px"></p>
+<p align="center"><img src="project/Easy.png" alt="Easy Eats App" height="250px"></p>
 
 # Easy Eats App
 An Android app built with Kotlin, with an aim of learning jetpack compose 
@@ -7,10 +7,10 @@ An Android app built with Kotlin, with an aim of learning jetpack compose
 <img src="project/splash.png" width="250"/>
 
 ### Authentication
- <img src="project/sign_up.png" width="250"/> <img src="project/sign_in.png" width="250"/> <img src="project/forgot_pass.png" width="250"/>
+ <img src="project/sign_up.png" width="250"/> <img src="project/sign_in.png" width="250"/>
 
 ### Normal User
-<img src="project/shimmer.png" width="250"/> <img src="project/goal.png" width="250"/> <img src="project/add_goal.png" width="250"/> <img src="project/marking_goals.png" width="250"/> <img src="project/achieved.png" width="250"/>
+<img src="project/home.png" width="250"/> <img src="project/restaurants.png" width="250"/> <img src="project/favorites.png" width="250"/>
 
 
 ## Tech Stack.
