@@ -171,6 +171,7 @@ fun UserDetails() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween,
                     modifier = Modifier.fillMaxWidth()
+                        .padding(8.dp)
                 ) {
                     Text(text = "My Address", fontSize = 16.sp)
                     Icon(imageVector = Icons.Default.ChevronRight, contentDescription = null)
@@ -179,6 +180,7 @@ fun UserDetails() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween,
                     modifier = Modifier.fillMaxWidth()
+                        .padding(8.dp)
                 ) {
                     Text(text = "FAQ", fontSize = 16.sp)
                     Icon(imageVector = Icons.Default.ChevronRight, contentDescription = null)
@@ -187,6 +189,7 @@ fun UserDetails() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween,
                     modifier = Modifier.fillMaxWidth()
+                        .padding(8.dp)
                 ) {
                     Text(text = "About", fontSize = 16.sp)
                     Icon(imageVector = Icons.Default.ChevronRight, contentDescription = null)
@@ -195,6 +198,7 @@ fun UserDetails() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween,
                     modifier = Modifier.fillMaxWidth()
+                        .padding(8.dp)
                 ) {
                     Text(text = "Help", fontSize = 16.sp)
                     Icon(imageVector = Icons.Default.ChevronRight, contentDescription = null)
@@ -203,6 +207,7 @@ fun UserDetails() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween,
                     modifier = Modifier.fillMaxWidth()
+                        .padding(8.dp)
                 ) {
                     Text(text = "Exit", fontSize = 16.sp)
                     Icon(imageVector = Icons.Default.ChevronRight, contentDescription = null)

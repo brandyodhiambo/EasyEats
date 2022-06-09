@@ -34,11 +34,7 @@ import com.ramcosta.composedestinations.annotation.Destination
 fun ResturantScreen() {
     Column {
         ToolBarResturant()
-        LazyColumn{
-            item {
-                ResturantData()
-            }
-        }
+        ResturantData()
     }
 }
 @Composable
@@ -80,10 +76,10 @@ fun ToolBarResturant() {
 fun ResturantData(restaurant: List<Restaurant> = emptyList()) {
 
     val resturantList = listOf(
-        Restaurant(R.drawable.rest1, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
-        Restaurant(R.drawable.rest2, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
-        Restaurant(R.drawable.rest3, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
-        Restaurant(R.drawable.rest4, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest1, "TASLIM",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest2, "JAKONI",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest3, "MAWIMBI",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest4, "THE CARNIVORE",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
         Restaurant(R.drawable.rest5, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
     )
 

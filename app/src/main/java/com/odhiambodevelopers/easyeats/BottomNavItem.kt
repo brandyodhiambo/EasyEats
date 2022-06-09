@@ -3,12 +3,10 @@ package com.odhiambodevelopers.easyeats
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Hotel
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.odhiambodevelopers.easyeats.screens.destinations.Destination
-import com.odhiambodevelopers.easyeats.screens.destinations.FavoritesDestination
-import com.odhiambodevelopers.easyeats.screens.destinations.MainScreenDestination
-import com.odhiambodevelopers.easyeats.screens.destinations.UserScreenDestination
+import com.odhiambodevelopers.easyeats.screens.destinations.*
 
 sealed class BottomNavItem(
     val title: String,
@@ -29,6 +27,11 @@ sealed class BottomNavItem(
         title = "User",
         icon = Icons.Default.Person,
         destination = UserScreenDestination
+    )
+    object ResturantScreen:BottomNavItem(
+        title = "Restaurants",
+        icon = Icons.Default.Hotel,
+        destination = ResturantScreenDestination
     )
 
 }

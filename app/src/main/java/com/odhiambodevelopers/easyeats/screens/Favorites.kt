@@ -166,11 +166,11 @@ fun CardItemFavorites(
 fun ResturantFavorite(restaurant: List<Restaurant> = emptyList()) {
 
     val resturantList = listOf(
-        Restaurant(R.drawable.rest1, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
-        Restaurant(R.drawable.rest2, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
-        Restaurant(R.drawable.rest3, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest1, "THE CARNIVORE",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest2, "TASLIM",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest3, "JAKONI",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
         Restaurant(R.drawable.rest4, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
-        Restaurant(R.drawable.rest5, "VERO VERO",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
+        Restaurant(R.drawable.rest5, "MAWIMBI",5.0f ,"Nairobi,Kenye", "12:45pm", "35600"),
     )
 
     LazyColumn(

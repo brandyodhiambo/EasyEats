@@ -119,7 +119,7 @@ fun SignUp(
 
         Spacer(modifier = Modifier.height(4.dp))
 
-        TextField(
+        OutlinedTextField(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 8.dp, end = 8.dp),
@@ -140,7 +140,7 @@ fun SignUp(
         )
         Spacer(modifier = Modifier.height(4.dp))
 
-        TextField(
+        OutlinedTextField(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 8.dp, end = 8.dp),

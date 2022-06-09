@@ -40,7 +40,8 @@ class MainActivity : ComponentActivity() {
                     val bottomNavigationItems: List<BottomNavItem> = listOf(
                         BottomNavItem.MainScreen,
                         BottomNavItem.FavoriteScreen,
-                        BottomNavItem.UserScreen
+                        BottomNavItem.UserScreen,
+                        BottomNavItem.ResturantScreen
                     )
 
                     Scaffold(
